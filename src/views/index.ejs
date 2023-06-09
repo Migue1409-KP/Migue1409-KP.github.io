@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <%- include('partials/head', {title: 'Hi there'}) %>
+  <body>
+    <header>
+      <i class="fas fa-laptop-code"></i>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <div id=home></div>
+    <section class="home">
+      <div class="homeHi">
+        <h2 class="home2">Hi,</h2>
+      </div>
+      <div class="homeNameContent">
+        <h2 class="home2">I'm </h2>
+        <h2 class="homeName">Miguel</h2><h2 class="home2">,</h2>
+      </div>
+      <div class="homeJob">
+        <h2 class="home2">Web Developer</h2>
+        <p class="home2">Backend | Frontend</p>
+      </div>
+    </section>
+
+    <div id="about"></div>
+    <section class="about">
+      <h2 class="titleContent">About</h2>
+      <div class="contentAbout">
+        <article class="textContent">
+          <p class="longContent">
+            Systems engineering student with a passion for programming, full-stack web developer specializing in the backend.
+          </p>
+          <p class="medContent">
+            Self-taught developer and gaining knowledge everyday, excellent programming logic and good math skills
+          </p>
+        </article>
+          <img src="/img/bitmoji.png" alt="">
+      </div>
+    </section>
+
+    <div id="skills"></div>
+    <section class="skills">
+      <h2 class="titleContent">Skills</h2>
+      <div class="contentSkills">
+        <article class="contentWhite">
+          <div> 
+            <i class="fab fa-python"></i><p>PYTHON</p>
+          </div>
+          <div>
+            <i class="fab fa-js-square"></i><p>JAVASCRIPT</p>
+          </div>
+          <div>
+            <i class="fab fa-css3-alt"></i><p>CSS</p>
+          </div>
+          <div>
+            <i class="fab fa-html5"></i><p>HTML</p>
+          </div>
+          <div>
+            <i class="fab fa-node"></i><P>NODEJS</P>
+          </div>
+          <div>
+            <i class="fas fa-database"></i><P>MYSQL</P>
+          </div>
+        </article>
+        <article class="contentDark">
+          <div> 
+            <p>TIME MANAGEMENT</p>
+          </div>
+          <div> 
+            <p>RESPONSIVE DESIGN</p>
+          </div>
+          <div> 
+            <p>TEAMWORK</p>
+          </div>
+          <div> 
+            <p>PROBLEMS RESOLUTION</p>
+          </div>
+          <div> 
+            <p>ADAPTATION TO CHANGE</p>
+          </div>
+          <div> 
+            <p>RESPONSIBILITY</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div id="work"></div>
+    <section class="work">
+      <h2 class="titleContent">Works</h2>
+      <div class="containerWork"> 
+        <article class="articleWork truequeOnline">
+          <div class="contentWork">
+            <h2>Trueque Online</h2>
+            <p class="descriptionWork">
+              Ecommerce created for the exchange and purchase of products between users
+            </p>
+            <div class="workSkills">
+              <p>CRUD</p>
+              <p>CSS</p>
+              <p>HTML</p>
+              <p>JAVASCRIPT</p>
+            </div>
+            <a href="https://trueque-online.herokuapp.com/"><i class="fas fa-link"></i></a>
+          </div>
+        </article>
+        <article class="articleWork mercadoLiebre">
+          <div class="contentWork">
+            <h2>Mercado Liebre</h2>
+            <p class="descriptionWork">
+              Visual copy of the site "Mercado Libre"
+            </p>
+            <div class="workSkills">
+              <p>CSS</p>
+              <p>HTML</p>
+              <p>JAVASCRIPT</p>
+              <p>RESPONSIVE</p>
+            </div>
+            <a href="https://mercado-liebre-miguel.herokuapp.com/"><i class="fas fa-link"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
+    
+    <div id="contact"></div>
+    <section class="contact">
+      <h2 class="titleContent">Contact Me</h2>
+      <article class="contentContact">
+        <form action="/">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Message" rows="10"></textarea>
+          <button type="submit">Contact Me</button>
+        </form>
+      </article>
+    </section>
+
+    <footer>
+      <a href="https://github.com/Migue1409-KP"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/miguel-ángel-mosquera-grisales"><i class="fab fa-linkedin"></i></a>
+    </footer>
+  </body>
+</html>
